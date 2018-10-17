@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Handling text</title>
+  </head>
+  <body>
+
+    <button>Press me</button>
+
+    <script>
+      var string = 'The revolution will not be televised';
+      string;
+
+      var sgl = 'Single quotes.';
+      var dbl = "Double quotes";
+
+      sgl;
+      dbl;
+
+      var dglDbl = 'Would you eat a "fish supper"?';
+      var dblSgl = 'Im feeling blue';
+
+      dglDbl;
+      dglDbl;
+
+      var bigmouth = 'I\'ve got no right to take my place'
+      bigmouth;
+
+      var one = 'Hello,';
+      var two = 'how are you?';
+      var joined = one + two;
+
+      joined;
+
+      var multiple = one + one + two + two;
+      multiple;
+
+      var response = one + 'Im fine' + two;
+      response;
+
+      var button = document.querySelector('button');
+
+      button.onclick = function(){
+        var name = prompt('What is your name');
+
+        alert('Hello' + name + ', nice to see you');
+      }
+
+      var myString = '123';
+
+      var myNum = Number(myString);
+
+      typeof myNum;
+
+      var myNum = 123;
+
+      var myString = myNum.toString();
+
+      typeof myString ;
+
+      var browserType = 'mozilla';
+
+      browserType.indexOf('zilla');
+
+      browserType.slice(0, 3);
+
+      browserType.slice(2);
+
+      var radData = 'My name is MuD';
+
+      radData.toLowerCase();
+
+      radData.toUpperCase();
+
+      browserType = browserType.replace('moz', 'van');
+      if (browserType.indexOf('mozilla') !== -1){
+
+      }
+    </script>
+  <body>
+</html>
